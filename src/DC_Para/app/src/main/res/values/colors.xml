@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colortoolbar">#f9d653</color>
+    <color name="colorbackground">#FEFBE8</color>
+    <color name="colorbtn">#FDBA40</color>
+    <color name="white">#FFF</color>
+    <color name="colorbtn_text">#864832</color>
+    <color name="color_text_blue">#3fbfc2</color>
+    <color name="color_gray">#DDDDDD</color>
+    <color name="color_etchat_gray">#AAAAAA</color>
+    <color name="color_black">#000000</color>
+    <color name="color_floatActionBotton_bc">#d9c3b1</color>
+    <color name="color_Pass">#37a413</color>
+
+</resources>

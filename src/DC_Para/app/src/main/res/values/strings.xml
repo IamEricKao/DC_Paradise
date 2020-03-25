@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name" translatable="false">貓狗大棧</string>
+    <string name="app_adoptform" translatable="false">動物認養申請表</string>
+    <string name="login_name" translatable="false">登入</string>
+    <string name="hint_etUser" translatable="false">帳號</string>
+    <string name="hint_etPassword" translatable="false">密碼</string>
+    <string name="text_btnLogin" translatable="false">登入</string>
+    <string name="login_image" translatable="false">logo</string>
+    <string name="tv_getbackpassword" translatable="false">忘記密碼?</string>
+    <string name="app_name_Log" translatable="false">登入</string>
+    <string name="app_name_adoptVerify" translatable="false">認養審核</string>
+
+    <string name="btn_nav_home" translatable="false">首頁</string>
+    <string name="btn_nav_adopt" translatable="false">公益</string>
+    <string name="btn_nav_shop" translatable="false">商城</string>
+    <string name="btn_nav_live" translatable="false">直播</string>
+
+    <string name="nav_mail" translatable="false">tonygreendev@gamil.com</string>
+    <string name="nav_name" translatable="false">Tony Green</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navi_drawer_profile">基本資料</string>
+    <string name="navi_drawer_point">紅利點數</string>
+    <string name="navi_drawer_order">訂單管理</string>
+    <string name="navi_drawer_adopt">公益管理</string>
+    <string name="navi_drawer_logout">登出</string>
+
+    <string name="msg_InvalidUserOrPassword">帳號或密碼無效</string>
+    <string name="msg_NoNetwork">No network connection available</string>
+    <string name="msg_AdoptListSuccess">送出成功!</string>
+    <string name="msg_AdoptListFail">送出失敗!</string>
+    <string name="msg_InputEmpty">請勿空白</string>
+    <string name="msg_LastLocationNotAvailable">The last location is not available, please wait for a while</string>
+    <string name="msg_AdoptNotFound">Adopts not Found</string>
+    <string name="msg_VerifyListNotFound">VerifyList not Found</string>
+    <string name="msg_UpdateVerifyFail">送出失敗</string>
+    <string name="msg_UpdateVerifyPass">審核成功</string>
+
+
+    <string name="adopt">公益</string>
+    <string name="text_ShouldGrant">Permission to access location should be granted</string>
+    <string name="text_NoCameraApp">找不到相機APP</string>
+
+    <string name="col_Adopt_Project_No">認養專案編號</string>
+    <string name="col_Adopt_Project_Name">認養專案名稱</string>
+    <string name="col_Breed">品種</string>
+    <string name="col_Founder_No">園地會員編號</string>
+    <string name="col_Adopter_No">認養人編號</string>
+    <string name="col_Pet_Category">動物類別</string>
+    <string name="col_Adopt_Status">專案狀態</string>
+    <string name="col_Sex">性別</string>
+    <string name="col_Age">年齡</string>
+    <string name="col_Chip">晶片</string>
+    <string name="col_Birth_Control">絕育</string>
+    <string name="col_Founder_Location">所在地區</string>
+    <string name="col_date">申請日期</string>
+    <string name="col_memberNo">會員編號</string>
+
+    <string name="text_MsgEmpty">請輸入文字</string>
+
+    <string name="hint_Real_Name">姓名</string>
+    <string name="hint_Phone">電話</string>
+    <string name="hint_ID_Card">身分證字號</string>
+    <string name="hint_Address">地址</string>
+    <string name="hint_Email">Email</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

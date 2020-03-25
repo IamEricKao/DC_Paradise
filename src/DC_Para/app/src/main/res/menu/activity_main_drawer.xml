@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/funtion"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/nav_profile"
+            android:title="@string/navi_drawer_profile"
+            android:orderInCategory="1"/>
+
+        <item
+            android:id="@+id/nav_point"
+            android:icon="@drawable/nav_point"
+            android:title="@string/navi_drawer_point"
+            android:orderInCategory="3"/>
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/nav_order"
+            android:title="@string/navi_drawer_order"
+            android:orderInCategory="4"/>
+
+        <item
+            android:id="@+id/nav_adopt"
+            android:icon="@drawable/nav_adopt"
+            android:title="@string/navi_drawer_adopt"
+            android:orderInCategory="5"/>
+
+    </group>
+
+    <group android:id="@+id/funtion2">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/navi_drawer_logout"
+            android:orderInCategory="6"/>
+    </group>
+</menu>

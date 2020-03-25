@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" metadata-complete="false" version="4.0">
+  <display-name>DC_Paradise</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <resource-ref>
+    <description>DB Connection</description>
+    <res-ref-name>jdbc/TestDB3</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+  
+<!-- Android --> 
+ <context-param>
+		<param-name>contentType</param-name>
+		<param-value>text/html; charset=UTF-8</param-value>
+	</context-param>
+    
+  <servlet>
+	<servlet-name>MemberServlet</servlet-name>
+	<servlet-class>android.member_info.model.controller.MemberServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>MemberServlet</servlet-name>
+	<url-pattern>/MemberServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdoptServlet_An</servlet-name>
+    <servlet-class>android.adopt.model.controller.AdoptServlet_An</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdoptServlet_An</servlet-name>
+    <url-pattern>/AdoptServlet_An</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Android_AdoptListServlet</servlet-name>
+    <servlet-class>android.adopt_list.model.controller.Android_AdoptListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Android_AdoptListServlet</servlet-name>
+    <url-pattern>/Android_AdoptListServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

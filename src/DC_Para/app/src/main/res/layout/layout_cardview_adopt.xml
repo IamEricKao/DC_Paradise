@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvAdopt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:padding="6dp"
+    app:cardBackgroundColor="#ffdddddd"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="6dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+        <ImageView
+            android:id="@+id/ivAdoptPics"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:padding="6dp"
+            android:src="@drawable/default_image"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ivAdoptPics"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvAdoptTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="18dp"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/tvAdoptContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="#666666"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adopt.AdoptDetailActivity"
+    android:background="@color/colorbackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/adopt_detail_img"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageView>
+
+            <TextView
+                android:id="@+id/adopt_detail_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="15dp" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="15dp"
+
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="所在地區:"/>
+
+            <TextView
+                android:id="@+id/founder_location"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_toRightOf="@id/tvLocation"
+                android:textSize="17sp" />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:onClick="OnFlMakerClick"
+                android:layout_gravity="end"
+                android:src="@drawable/maker"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+            <Button
+                android:layout_gravity="center"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnAdoptList"
+                android:background="@color/colorAccent"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="16dp"
+                android:onClick="onFormClick"
+                android:text="我要認養"/>
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnChat"
+                android:background="#e8962d"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="16dp"
+                android:onClick="onChatClick"
+                android:textStyle="bold"
+                android:text="聊天"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
